@@ -1,0 +1,4 @@
+
+  ROWNANIE:    2.0000000     X^2+    3.0000000     X+    4.0000000     =0                            
+  DELTA =   -23.000000     Brak pierwiastkow                                                         
+

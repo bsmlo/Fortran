@@ -1,0 +1,7 @@
+
+E:\Data\Dokumenty\Studia_FizTech_2018_Sem_I\ProgramowanieFortran\R¢wnania2>e:\programes\edi\programy\ftnchek.exe rownania2.f90 
+
+FTNCHEK Version 3.3 November 2004
+
+File rownania2.f90:
+ 0 syntax errors detected in file rownania2.f90

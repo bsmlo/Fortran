@@ -1,0 +1,1 @@
+e:\programes\edi\programy\ftnchek.exe e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90

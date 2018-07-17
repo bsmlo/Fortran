@@ -1,0 +1,1 @@
+e:\programes\edi\programy\ftnchek.exe rownania2.f90

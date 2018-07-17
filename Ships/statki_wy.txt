@@ -1,0 +1,54 @@
+
+e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki>e:\programes\edi\programy\ftnchek.exe e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90 
+
+FTNCHEK Version 3.3 November 2004
+
+File e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90:
+     47       x = (rand()+1)*1000000000/1
+                ^
+Warning near line 47 col 9 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : real expr (RAND()+1)*1000000000/1 truncated to intg X
+
+Warning in module LOSOWANIE in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : Variables declared but never referenced:
+    SHIP declared at line 44 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+    Y declared at line 45 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+
+Warning in module LOSOWANIE in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : Identifiers of undeclared type
+    RAND referenced at line 47 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+    210 IF ( PCships == 0 .AND. PlayerShips) > 0) THEN
+                          ^
+Error near line 210 col 19 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : operands cannot be combined in expression: logl expr PCSHIPS==0 .AND. intg 
+ PLAYERSHIPS
+                                               ^
+Error near line 210 col 40 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : syntax error, unexpected relop, expecting integer const
+    214 ELSE IF ( PCships > 0 .AND. PlayerShips == 0) THEN
+        ^
+Error near line 214 col 1 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : ELSE statement does not match PROGRAM block it closes
+    233 end program
+        ^
+Error near line 233 col 1 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : no construct to end here
+
+Warning in module STATKI in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : Variables declared but never referenced:
+    R declared at line 64 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+    S declared at line 65 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+    T declared at line 64 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+    Y declared at line 64 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+
+Warning in module STATKI in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ : Variables used before set
+    CHOSE used at line 154 file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ ; never set
+
+ 4 syntax errors detected in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+ 5 warnings issued in file e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
+
+Warning: Subprogram RAND never defined
+    Invoked in module LOSOWANIE line 47 file 
+ e:\data\dokumenty\studia_fiztech_2018_sem_i\programowaniefortran\statki\statki.f90
